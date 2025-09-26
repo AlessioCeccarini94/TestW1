@@ -14,7 +14,7 @@ p {
   margin: auto;
 }
 #logo img {
-  width: 100px;
+  width: 200px;
 }
 #logo {
   text-align: justify;
@@ -71,15 +71,10 @@ main {
   text-align: center;
   margin-top: 60px;
 }
-#main-content {
-  text-align: center;
-  white-space: nowrap;
-  height: 80%;
-}
+
 #main-content div {
   vertical-align: top;
   margin: 0 15px;
-  max-width: 220px;
 }
 #text-column {
   display: inline-block;
@@ -90,17 +85,22 @@ main {
 #text-column p {
   width: 400px;
   text-align: left;
+  font-size: 0.8em;
+}
+#text-column {
+  text-align: left;
 }
 #main-content h3 {
   font-size: 1em;
 }
-#notebook-img img {
+#notebook-img {
   display: inline-block;
+  margin-top: 200px;
+}
+#notebook-img img {
   margin-right: 30px;
-  text-align: left;
-  vertical-align: top;
   border-radius: 200px;
-  width: 200px;
+  width: 300px;
 }
 #banner-1 {
   background-color: #ff2600e1;
