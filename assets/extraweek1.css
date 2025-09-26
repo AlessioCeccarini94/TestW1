@@ -46,7 +46,7 @@ h3 a {
 }
 header {
   margin: auto;
-  background-image: url(assets/img/banner.jpg);
+  background-image: url(img/banner.jpg);
   width: 100%;
   text-align: center;
   background-size: contain;
@@ -96,6 +96,7 @@ main {
 #notebook-img {
   display: inline-block;
   margin-top: 200px;
+  padding-top: 160px;
 }
 #notebook-img img {
   margin-right: 30px;
@@ -126,9 +127,7 @@ main {
   border: solid grey;
   margin-bottom: 50px;
   width: 300px;
-  align-items: start;
   display: inline-block;
-  align-items: center;
   margin-left: 20px;
 }
 #banners img {
@@ -136,7 +135,8 @@ main {
   width: 298px;
 }
 #banners {
-  height: 500px;
+  padding-left: 220px;
+  height: 550px;
   display: flex;
 }
 
